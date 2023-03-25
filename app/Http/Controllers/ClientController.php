@@ -18,6 +18,7 @@ class ClientController extends Controller
     public function index()
     {
         $clients = Client::get();
+        $test = true;
       return view('client.index', get_defined_vars());
     }
 
